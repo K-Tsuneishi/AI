@@ -1,3 +1,5 @@
+#主成分分析とは、多数の変数(説明変数)を、より少ない指標や合成変数に要約する手法。データの次元を削減するために用いられる。
+
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
@@ -29,8 +31,6 @@ def plot_decision_regions(X, y, classifier, resolution=0.02):
                     alpha=0.8, c=cmap(idx),
                     marker=markers[idx], label=cl)
 
-
-# 多数の変数(説明変数)を、より少ない指標や合成変数に要約する手法。データの次元を削減するために用いられる。
 import pandas as pd
 
 #データセットの準備
