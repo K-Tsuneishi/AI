@@ -1,4 +1,5 @@
-#主成分分析とは、多数の変数(説明変数)を、より少ない指標や合成変数に要約する手法。データの次元を削減するために用いられる。
+#主成分分析とは、多数の変数(説明変数)を、より少ない指標や合成変数に要約する手法。
+# データの次元を削減するために用いられる。
 
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
@@ -37,7 +38,7 @@ import pandas as pd
 # 今回はUCI機械学習のリポジトリにあるワインデータを使用する。
 # このデータセットは178のデータからなり、説明変数は13の変量からなる。
 # 予測するものはあやめのときと同じく、ワインの種類を求める。
-df_wine = pd.read_csv("./wine.data")
+df_wine = pd.read_csv("./../../datasets/wine.data")
 datasets = df_wine
 x,y = datasets.iloc[:,1:].values, df_wine.iloc[:,0].values
 
