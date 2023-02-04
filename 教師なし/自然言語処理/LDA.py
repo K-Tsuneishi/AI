@@ -63,6 +63,7 @@ clf = LogisticRegression()
 # LDAを使用して新しい変量を抽出する(主成分分析と異なる部分)
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 lda = LinearDiscriminantAnalysis(n_components=2)
+
 x_train_lda = lda.fit_transform(x_train_std,y_train)
 x_test_lda  = lda.transform(x_test_std)
 

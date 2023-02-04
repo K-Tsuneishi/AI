@@ -6,7 +6,8 @@ from sklearn.datasets import fetch_california_housing
 datasets = fetch_california_housing()
 
 # 今回のデータセットの[data]には、住環境の情報が8つ入っている。
-# [0]:生体所得と中央値 [1]:家の築年数 [2]:部屋の平均数 [3]:寝室の平均数 [4]:居住人数の合計 [5]:世帯人数の平均 [6]:平均緯度 [7]:平均経度
+# [0]:生体所得と中央値 [1]:家の築年数 [2]:部屋の平均数 [3]:寝室の平均数 [4]:居住人数の合計\
+#  [5]:世帯人数の平均 [6]:平均緯度 [7]:平均経度
 xi = datasets.data
 ti = datasets.target
 
